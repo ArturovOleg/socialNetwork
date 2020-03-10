@@ -1,0 +1,36 @@
+.myPostsWrapper {
+  display: flex;
+  flex-direction: column;
+
+  textarea {
+    resize: none;
+    border: 1px solid #e7e8ec;
+    border-radius: 4px;
+    width: 100%;
+    margin-top: 10px;
+    min-height: 100px;
+  }
+
+  button {
+    border: none;
+    background-color: #5181b8;
+    color: #fff;
+    min-height: 30px;
+    padding: 0 15px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+}
+
+.title {
+  border-bottom: 1px solid #e7e8ec;
+  padding: 0 10px 10px;
+}
+
+.newPostWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}

@@ -1,0 +1,40 @@
+.postWriter {
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid #e7e8ec;
+
+  img {
+    width: 50px;
+    border-radius: 50%;
+  }
+
+  .postInfo {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .name {
+      line-height: 18px;
+    }
+
+    .date {
+      line-height: 18px;
+      font-size: 13px;
+      color: #757575;
+    }
+  }
+}
+
+.postBody {
+  min-height: 50px;
+  padding: 10px;
+  border-bottom: 1px solid #e7e8ec;
+}
+
+.mainBlock {
+  flex-direction: column;
+}
+
+.footer {
+  padding-top: 10px;
+}
